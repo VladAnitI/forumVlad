@@ -1,0 +1,76 @@
+/* #e0e0e0 Светлый */
+/* #27022c Тёмный */
+
+body {
+	background-color: #27022c;
+	color: #e0e0e0;
+}
+
+a {
+	text-decoration: inherit;
+}
+
+a:hover {
+	color: #629eff;
+}
+
+.content {
+	width: 100%;
+	text-align: center;
+}
+
+.z {
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.z1 {
+	font-size: 40px;
+}
+
+.z2 {
+	font-size: 25px;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.buttonBlock {
+	margin-top: 15px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.buttonLogIn {
+	margin: 20px 100px 0 100px;
+	font-size: 30px;
+	padding: 10px;
+	border-radius: 15px;
+	/* border: 1px solid #e0e0e0; */
+	background-color: #e0e0e0;
+	color: #27022c;
+	cursor: pointer;
+	width: 250px;
+	transition: 0.5s;
+}
+
+.buttonLogIn:hover {
+	transform: scale(1.1);
+}
+
+.buttonLogIn:active {
+	transform: scale(1);
+}
+
+@media (max-width: 1000px) {
+	.z1 {
+		font-size: 30px;
+	}
+
+	.z2 {
+		font-size: 15px;
+	}
+	.buttonLogIn {
+		font-size: 20px;
+		width: 200px;
+	}
+}

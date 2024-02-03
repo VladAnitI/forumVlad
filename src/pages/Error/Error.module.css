@@ -1,0 +1,10 @@
+.clickMe {
+	cursor: pointer;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.error {
+	text-align: center;
+	font-size: 50px;
+}

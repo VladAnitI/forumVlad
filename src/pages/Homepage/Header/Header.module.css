@@ -1,0 +1,77 @@
+.header {
+	position: fixed;
+	width: 100%;
+	height: 86px;
+	background-color: #27022c;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	top: 0;
+	border-bottom: 2px solid #e0e0e0;
+	left: 0;
+}
+
+.left-bar {
+	display: flex;
+	align-items: center;
+	padding: 0 10px;
+}
+
+.joinNow {
+	padding: 10px 22px;
+	font-size: 25px;
+	border-radius: 15px;
+	margin-left: 10px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.joinNow:hover {
+	transform: scale(1.2);
+}
+
+.right-bar {
+	display: flex;
+	align-items: center;
+	margin-right: 70px;
+}
+
+.forum {
+	margin-right: 10px;
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+	background-image: url('../../../assets/icon.png');
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	top: 4px;
+}
+
+@media (max-width: 600px) {
+	.joinNow {
+		padding: 10px 15px;
+		font-size: 20px;
+	}
+	.right-bar {
+		margin-right: 10px;
+		font-size: 10px;
+	}
+	.left-bar {
+		padding: 0 0 0 10px;
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 400px) {
+	.right-bar {
+		margin-right: 10px;
+		font-size: 8px;
+	}
+	.left-bar {
+		padding: 0 0 0 10px;
+		font-size: 8px;
+	}
+}
